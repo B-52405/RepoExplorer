@@ -1,0 +1,19 @@
+{
+    "name": "repo-explorer",
+    "version": "1.0.0",
+    "description": "以类似读写本地文件的方式读写Github仓库中的文件",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "type": "module",
+    "keywords": [
+        "octokit",
+        "github"
+    ],
+    "author": "B",
+    "license": "MIT",
+    "dependencies": {
+        "@octokit/rest": "^21.0.1"
+    }
+}
